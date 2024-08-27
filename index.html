@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Portfolio - John Doe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" data-aos="fade-down">
+        <div class="container">
+            <div class="profile">
+                <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-img">
+                <h1 class="name">John Doe</h1>
+                <p class="profession">Architecture Student</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-description">
+                As a passionate architecture student, my work is defined by the intersection of creativity and sustainability. I strive to design spaces that not only meet functional needs but also inspire those who inhabit them. My approach combines modern design principles with a deep respect for the environment.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-img-wrapper">
+                        <img src="https://via.placeholder.com/500" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Urban Living Complex</h3>
+                        <p>A futuristic living space that redefines urban life by integrating green spaces and smart technologies.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-img-wrapper">
+                        <img src="https://via.placeholder.com/500" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Eco-Friendly Pavilion</h3>
+                        <p>A sustainable design that emphasizes natural materials and renewable energy sources.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-img-wrapper">
+                        <img src="https://via.placeholder.com/500" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Community Hub</h3>
+                        <p>An inclusive space that fosters social interaction and community growth in urban environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-item" data-aos="fade-right">
+                    <h3>Junior Architect Intern</h3>
+                    <p>ABC Architects | Summer 2023</p>
+                    <p>Worked on residential and commercial projects, focusing on sustainable design and energy efficiency.</p>
+                </div>
+                <div class="experience-item" data-aos="fade-left">
+                    <h3>Urban Planning Assistant</h3>
+                    <p>XYZ Urban Studio | Spring 2022</p>
+                    <p>Assisted in the development of urban renewal projects, including zoning analysis and community outreach.</p>
+                </div>
+                <div class="experience-item" data-aos="fade-right">
+                    <h3>Research Assistant</h3>
+                    <p>University of Architecture | Fall 2021</p>
+                    <p>Conducted research on the use of renewable materials in modern architecture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="container">
+            <p>&copy; 2024 John Doe | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true
+        });
+    </script>
+</body>
+</html>
